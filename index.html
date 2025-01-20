@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Online Simple Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display-container">
+            <input id="display" type="text" readonly>
+        </div>
+        <div id="keys">
+            <!-- row 1 -->
+            <button class="key special-btn">AC</button>
+            <button class="key special-btn">DE</button>
+            <button class="key">.</button>
+            <button class="key special-btn">/</button>
+            <!-- row 2 -->
+            <button class="key">7</button>
+            <button class="key">8</button>
+            <button class="key">9</button>
+            <button class="key special-btn">*</button>
+            <!-- row 3 -->
+            <button class="key">4</button>
+            <button class="key">5</button>
+            <button class="key">6</button>
+            <button class="key special-btn">-</button>
+            <!-- row 4 -->
+            <button class="key">1</button>
+            <button class="key">2</button>
+            <button class="key">3</button>
+            <button class="key special-btn">+</button>
+            <!-- row 5 -->
+            <button class="key">00</button>
+            <button class="key">0</button>
+            <button id="equalto" class="key">=</button>
+        </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
