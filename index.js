@@ -13,6 +13,8 @@ Array.from(keys).forEach(key => {
 
         if(keyValue === '=') {
             try {
+                // replace all the X into real operator '*'
+                display.value = display.value.replaceAll('x', '*');
                 display.value = eval(display.value);
             } catch (error) {
                 display.value = 'error';

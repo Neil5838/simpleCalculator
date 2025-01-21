@@ -91,3 +91,11 @@ button:active {
     width: 100%;
     grid-column: span 2;
 }
+
+.decimal {
+    font-size: larger;
+}
+
+.operator {
+    font-size: x-large;
+}
